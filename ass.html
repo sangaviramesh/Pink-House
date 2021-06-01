@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shop Site</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+	
+</head>
+<body>
+	
+
+
+    <section id="main">
+	<nav>
+		
+		
+		<ul>
+			<b>
+        <li><a href="#main">Home</a></li>
+        <li><a href="#category">Category</a></li>
+        <li><a href="#AboutUs">About Us</a></li>
+        <li><a href="#">Payments</a></li>
+        <li><a href="#">Contact Us</a></li>
+
+        
+            </ul></b>
+
+
+		<img src="image/simba.png">
+	</nav>
+<h1>SIMBA'S&nbsp;TOY SHOP</h1>
+<h2>The Best Online Shop</h2>
+	<p><b>Play and make a Big Mess with Toys <br>Check Out Our Favourites!!!<br>So Many Toys.... So Little Time!
+	<br>Shop By Brands<br>Enjoy Additional Savings With Coupon!! 
+		</p></b>
+		
+          <br><button class="common-btn">Sign Up</button>
+      </section>           
+ 
+     
+    
+
+          <!--category-->
+
+<section id="category">
+	<h2>CATEGORY</h2>
+	
+		<div class="row">
+			<div class="column">
+				<div class="card">
+					<img src="image/toy1.jpg" >
+					<h1>FisherPrice</h1>
+					
+					<button class="common-btn">Buy Now</button>
+				</div>
+			</div>
+       
+      <div class="column">
+				<div class="card">
+					<img src="image/toy2.jpg" >
+					<h1>MonsterTruck</h1>
+					
+					<button class="common-btn">Buy Now</button>
+					</div>
+			</div>
+			
+      <div class="column">
+				<div class="card">
+					<img src="image/toy3.jpg" >
+					<h1>&nbsp;&nbsp;Barbie</h1>
+					
+					<button class="common-btn">Buy Now</button>
+				</div>
+			</div>
+			
+     <div class="column">
+				<div class="card">
+					<img src="image/toy4.jpg" >
+					<h1>&nbsp;&nbsp;&nbsp;HotWheels</h1>
+					
+					<button class="common-btn">Buy Now</button>
+				</div>
+			</div>
+	
+		</div>
+</section>          
+<br><br><br>
+           
+
+           <!--About us-->
+           <section id="AboutUs"  >
+           	
+           <div class="row" >
+           	<div class="col" >
+           		<div class="cards">
+           		<h2><br>AboutUs</h2>
+           		<p>Lorem ipsum dolor sit amet, 
+           			consectetur adipiscing elit. 
+           		</p>
+           	</div>
+           </div>
+            
+            <div class="col">
+            	<h1>OUR&nbsp;&nbsp;SERVICES</h1>
+            	<h4>100% Quality Made </h4>
+            	<p>Freshly Baked | Home Delivered </p>
+</div>
+
+            <div class="col">
+            	<div class="content">
+            	<h3>Make Payments Easy </h3>
+                
+            	<p>Freshly Baked | Home <br>Delivered </p>
+            </div>
+           </div>
+
+           
+           <div class="col">
+            	<div class="cont">
+            	<h3>Get Free Delivery</h3>
+                
+            	<p>Freshly Baked | Home <br>Delivered </p>
+            </div>
+        </div>
+
+          
+</div>
+           </section>
+           
+          <!--Payments-->
+        <section id="Payments" style="background-color:pink; height: 80vh; ">
+            
+            <div class="progress">
+            	<h1>Payment Progress</h1>
+
+        	<ul>
+        		
+        		<li>
+        			<img src="image/selectitem.png"><br>
+        			<i class="fa fa-check" style="color: gray; "></i>
+        			
+        			<p>Select item</p><p style="color:#F35764 ;">1</p>
+        			
+
+        		</li>
+        		<li>
+        			<img src="image/addcart.png"><br>
+        			<i class="fa fa-check" style="color:gray;"></i>
+        			<p>Add to Cart</p><p style="color:#F35764 ;">2</p>
+        			
+
+        		</li>
+        		<li>
+        			
+        			<img src="image/listview.png"><br>
+        			<i class="fa fa-refresh" style="color: gray;"></i>
+        			
+        			<p>Fill Details</p><p style="color:#F35764; margin-top:50px;">3</p>
+        			
+        		</li>
+        		<li>
+        			<img src="image/wallet.png"><br>
+        			<i class="fa fa-times" style="color:gray;"></i>
+        			
+        			<p>Payment</p><p style="color:#F35764; ">4</p>
+
+        			
+
+        		</li>
+        	</ul>
+
+        </div>
+
+        	
+        </section>
+
+
+   <!--contact-->
+            <section id="contact">
+             
+            <div class=heading>
+            	<h1>Create Account</h1>
+            </div>
+            <div id="error"></div>
+            <form id="form" action=" " method="Get">
+			
+				<input id="text" placeholder="Enter Name" type="text" required>
+				<input id="email" placeholder="Enter email"  type="email" required>
+				<input id="password" placeholder="Enter password" pattern=".{8,20}"  type="password" required>
+				    
+					<br><br><button class="submit" onclick="myfunction();" type ="submit">Create Account</button>
+					
+				
+			</form>
+
+                
+
+
+
+              <script type="text/javascript">
+              	const text=document.getElementByid('text')
+              	const email=document.getElementByid('email')
+              	const password=document.getElementByid('password')
+              	const form=document.getElementByid('form')
+
+              	const errorElement=document.getElementByid('error')
+
+              	function myfunction(){
+              		 
+              	}
+</script>
+
+
+
+
+</body>
+
+</html>
